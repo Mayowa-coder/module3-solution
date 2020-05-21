@@ -1,0 +1,166 @@
+*{box-sizing: border-box;margin: 0;padding: 0;font-family: Serif-bold-italic, Helvetica, sans-serif;}
+
+body {
+  
+  color: grey;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+h4{
+	text-align: center;
+	color: black;
+}
+
+h6{
+	text-align: center;
+	color: black;
+
+}
+
+h6 a:hover{
+	text-decoration: none;
+}
+h3 {
+	text-align: center;
+	color: black;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+hr{
+  border: .5px solid white;
+}
+.style{
+
+	text-align: left;
+	color: black;
+}
+
+.events{
+margin: 20px 10px;
+}
+
+
+
+.nav-item{
+	text-align: center;
+	border-bottom-width: 2px;
+	border-bottom-color: white;
+	
+}
+
+
+
+/* Media Query for mobile devices */
+@media (max-width: 575px){
+
+	#Chicken {
+	background-color: grey;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	text-align: left;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+}
+	#Beef {
+	background-color: grey;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	text-align: left;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+}
+	#Sushi {
+	background-color: grey;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	text-align: left;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+}
+
+}
+
+/* Media Query for tablet devices */
+@media ( min-width: 576px) and ( max-width: 767px) {
+	ul{
+		visibility: hidden;:
+	}
+	#Chicken {
+	width:30%;
+	background-color: grey;
+	text-align: left;
+	padding-bottom: 20px;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+	
+}
+	#Beef {
+	width:30%;
+	background-color: grey;
+	text-align: left;
+	padding-bottom: 20px;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+	
+}
+
+	#Sushi {
+	width:100%;
+	background-color: grey;
+	text-align: left;
+	padding-bottom: 20px;
+	overflow: scroll;
+	margin: 10px;
+    flex: auto;
+	
+}
+
+}
+
+/* Media Query for desktop devices */
+@media (min-width: 768px){
+	ul{
+		visibility: hidden;:
+	}
+	#Chicken {
+	width:30%;
+	background-color: grey;
+	overflow: scroll;
+	margin: 2px;
+    flex: auto;
+}
+	#Beef {
+	width:30%;
+	background-color: grey;
+	overflow: scroll;
+	margin: 2px;
+    flex: auto;
+}
+	#Sushi {
+	width:30%;
+	background-color: grey;
+	overflow: scroll;
+	margin: 2px;
+    flex: auto;
+
+}
+
+
+}
+
